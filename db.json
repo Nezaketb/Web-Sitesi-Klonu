@@ -1,0 +1,72 @@
+{
+    "products":[
+        { 
+            "id":1, 
+           "catagory":"Nevresim", 
+            "name":"Sona Tek Kişilik Püsküllü Nevresim Seti - Mercan", 
+            "oldprice":359.99, 
+            "price":251.99, 
+            "image":"https://cdn-mgsm.akinon.net/products/2021/12/06/120171/2e431b21-d3d4-49dd-88b1-0062296cafd0_size437x330_cropCenter.jpg"}, 
+            { 
+            "id":2, 
+            "catagory":"Nevresim", 
+            "name":"Sona Çift Kişilik Püsküllü Nevresim Seti- Bej",            
+            "oldprice":499.99, 
+            "price":349.99, 
+            "image":"https://cdn-mgsm.akinon.net/products/2021/12/06/120175/49a1e401-5cb7-498b-806e-4e33f38eaf2a_size437x330_cropCenter.jpg"}, 
+            {
+            "id":3, 
+            "catagory":"Nevresim", 
+            "name":"Ynes Çift Kişilik Baskılı Ranforce Nevresim Takımı - Mürdüm", 
+            "oldprice":399.99, 
+            "price":199.99, 
+            "image":"https://cdn-mgsm.akinon.net/products/2021/12/06/116221/b42af167-5641-47df-8b7a-277fbbb1bf08_size437x330_cropCenter.jpg"},
+            {
+            "id":4,
+            "catagory":"paspas",
+            "name":"Sheep Banyo Paspası - Gri - 50x80+45x50 cm",
+            "oldprice":119.99,
+            "price":59.99,
+            "image":"https://cdn-mgsm.akinon.net/products/2021/10/12/113089/6369e58b-93cf-4cc5-b77a-a06d084fa3c0_size437x330_cropCenter.jpg"},
+            {
+            "id":5,
+            "catagory":"paspas",
+            "name":"Sheep Banyo Paspası - Toprak  - 50x80+45x50 cm",
+            "oldprice":119.99,
+            "price":59.99,
+            "image":"https://cdn-mgsm.akinon.net/products/2021/10/11/113091/9fb6a829-b846-43f6-a829-c2711fe7d99c_size437x330_cropCenter.jpg"},
+            {
+            "id":6,
+            "catagory":"banyosetleri",
+            "name":"Ocean 4 Lü Banyo Seti - Mavi",
+            "oldprice":449.99,
+            "price":359.99,
+            "image":"https://cdn-mgsm.akinon.net/products/2021/12/10/105992/a24dc005-2bdb-411f-8f3c-4256ead60bc1_size437x330_cropCenter.jpg"
+            },
+            {
+            "id":7,
+            "catagory":"banyosetleri",
+            "name":"Roche 4'Lü Banyo Seti - Gri",
+            "oldprice":399.99,
+            "price":319.99,
+            "image":"https://cdn-mgsm.akinon.net/products/2021/12/10/105990/30fc374c-c203-440f-9b18-465093315e6c_size437x330_cropCenter.jpg"},
+            {
+            "id":8,
+            "catagory":"banyosetleri",
+            "name":"Menthe 3'Lü Banyo Seti - Mint Yeşili",
+            "oldprice":199.99,
+            "price":159.99,
+            "image":"https://cdn-mgsm.akinon.net/products/2021/12/09/105989/25aceb7e-233c-449c-a4c3-0e90233d25bd_size437x330_cropCenter.jpg"}
+    ],
+    "users":[
+        {
+            "username":"nezaket",
+            "password":"nezaket"
+        },
+        {
+            "username":"deneme",
+            "password":"deneme"
+        }
+    ]
+
+}

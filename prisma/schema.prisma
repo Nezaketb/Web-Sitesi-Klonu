@@ -1,0 +1,30 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url = "mysql://3zieew9yrn0k:************@12j6qn46tm5g.us-east-1.psdb.cloud/vue-madamecoco-apollo-firebase?sslaccept=strict"
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  email     String   @unique
+  name      String?
+  acc     userBasket[]
+}
+
+model userBasket {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  title     String   @db.VarChar(255)
+  author    User?    @relation(fields: [authorId], references: [id])
+  authorId  Int?
+}
+
+enum Role {
+  USER
+  ADMIN
+}
